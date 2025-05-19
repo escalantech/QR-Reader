@@ -50,4 +50,4 @@ Podemos actualizar nuestra política de privacidad de vez en cuando. Le notifica
 
 Si tiene alguna pregunta sobre esta política de privacidad, puede contactarnos en:
 
-- Email: chris@escalantech.es.com
+- Email: chris@escalantech.es
