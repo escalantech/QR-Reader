@@ -1,0 +1,331 @@
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:12: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdkVersion 34
+        ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application or sdk runs on a version of Android that is more
+   recent than your targetSdkVersion specifies that it has been tested with,
+   various compatibility modes kick in. This ensures that your application
+   continues to work, but it may look out of place. For example, if the
+   targetSdkVersion is less than 14, your app may get an option button in the
+   UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\AndroidManifest.xml:10: Warning: Your app is currently not handling Selected Photos Access introduced in Android 14+ [SelectedPhotoAccess]
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SelectedPhotoAccess":
+   Selected Photo Access is a new ability for users to share partial access to
+   their photo library when apps request access to their device storage on
+   Android 14+.
+
+   Instead of letting the system manage the selection lifecycle, we recommend
+   you adapt your app to handle partial access to the photo library.
+
+   https://developer.android.com/about/versions/14/changes/partial-photo-video-access
+
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\gradle\wrapper\gradle-wrapper.properties:3: Warning: A newer version of Gradle than 8.12 is available: 8.14 [AndroidGradlePluginVersion]
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.12-bin.zip
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:8: Warning: A newer version of compileSdkVersion than 34 is available: 35 [GradleDependency]
+    compileSdkVersion 34
+    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:65: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.16.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.12.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:66: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:67: Warning: A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.11.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:68: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:69: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.9.0 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:70: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.7.0 is available: 2.9.0 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:73: Warning: A newer version of androidx.camera:camera-camera2 than 1.3.1 is available: 1.4.2 [GradleDependency]
+    implementation 'androidx.camera:camera-camera2:1.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:74: Warning: A newer version of androidx.camera:camera-lifecycle than 1.3.1 is available: 1.4.2 [GradleDependency]
+    implementation 'androidx.camera:camera-lifecycle:1.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:75: Warning: A newer version of androidx.camera:camera-view than 1.3.1 is available: 1.4.2 [GradleDependency]
+    implementation 'androidx.camera:camera-view:1.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:78: Warning: A newer version of com.google.mlkit:barcode-scanning than 17.2.0 is available: 17.3.0 [GradleDependency]
+    implementation 'com.google.mlkit:barcode-scanning:17.2.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:81: Warning: A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.11.0 [GradleDependency]
+    implementation 'com.google.code.gson:gson:2.10.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:85: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:86: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\java\com\ltw\qrreader\MainActivity.kt:149: Error: This declaration is opt-in and its usage should be marked with @androidx.camera.core.ExperimentalGetImage or @OptIn(markerClass = androidx.camera.core.ExperimentalGetImage.class) [UnsafeOptInUsageError from androidx.annotation.experimental]
+                val mediaImage = imageProxy.image
+                                            ~~~~~
+
+   Explanation for issues of type "UnsafeOptInUsageError":
+   This API has been flagged as opt-in with error-level severity.
+
+   Any declaration annotated with this marker is considered part of an
+   unstable or
+   otherwise non-standard API surface and its call sites should accept the
+   opt-in
+   aspect of it by using the @OptIn annotation, using the marker annotation
+   --
+   effectively causing further propagation of the opt-in aspect -- or
+   configuring
+   the UnsafeOptInUsageError check's options for project-wide opt-in.
+
+   To configure project-wide opt-in, specify the opt-in option value in
+   lint.xml
+   as a comma-delimited list of opted-in annotations:
+
+   <lint>
+       <issue id="UnsafeOptInUsageError">
+           <option name="opt-in" value="com.foo.ExperimentalBarAnnotation" />
+       </issue>
+   </lint>
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.annotation.experimental
+   Feedback: https://issuetracker.google.com/issues/new?component=459778
+
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build.gradle:78: Warning: The native library arm64-v8a/libbarhopper_v3.so (from com.google.mlkit:barcode-scanning:17.2.0) is not 16 KB aligned [Aligned16KB]
+    implementation 'com.google.mlkit:barcode-scanning:17.2.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\.gradle\caches\8.12\transforms\984d9eb91cf127b453b3373361bf7e42\transformed\jetified-barcode-scanning-17.2.0\jni\arm64-v8a\libbarhopper_v3.so: Warning: The native library arm64-v8a/libbarhopper_v3.so (from com.google.mlkit:barcode-scanning:17.2.0) is not 16 KB aligned [Aligned16KB]
+C:\Users\LTW\.gradle\caches\8.12\transforms\984d9eb91cf127b453b3373361bf7e42\transformed\jetified-barcode-scanning-17.2.0\jni\arm64-v8a\libbarhopper_v3.so: Warning: The native library arm64-v8a/libbarhopper_v3.so (from com.google.mlkit:barcode-scanning:17.2.0) is not 16 KB aligned [Aligned16KB]
+
+   Explanation for issues of type "Aligned16KB":
+   Android has traditionally used 4 KB memory page sizes. However, to support
+   future devices that only work with 16 KB aligned libraries apps containing
+   native libraries need to be built with 16 KB alignment.
+
+   Apps with 4 KB aligned native libraries may not work correctly on devices
+   requiring 16 KB alignment. To ensure compatibility and future-proof your
+   app, it is strongly recommended that your native libraries are aligned to
+   16 KB boundaries.
+
+   If your app uses any NDK libraries, directly or indirectly through an SDK,
+   you should rebuild your app to meet this recommendation. Make sure all
+   native libraries within your application, including those from
+   dependencies, are built with 16 KB page alignment.
+
+   This lint check looks at all native libraries that your app depends on. If
+   any are found to be aligned to 4 KB instead of 16 KB, you will need to
+   address this.
+
+   When a library is flagged, first try to update to a newer version that
+   supports 16 KB alignment. If an updated version is not available, contact
+   the library vendor to ask about their plans for 16 KB support and request a
+   compatible version. Updating your libraries proactively will help ensure
+   your app works properly on a wider range of devices.
+
+   https://developer.android.com/guide/practices/page-sizes
+
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\colors.xml:3: Warning: The resource R.color.purple_200 appears to be unused [UnusedResources]
+    <color name="purple_200">#FFBB86FC</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\colors.xml:4: Warning: The resource R.color.purple_500 appears to be unused [UnusedResources]
+    <color name="purple_500">#FF6200EE</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\colors.xml:5: Warning: The resource R.color.purple_700 appears to be unused [UnusedResources]
+    <color name="purple_700">#FF3700B3</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\colors.xml:6: Warning: The resource R.color.teal_200 appears to be unused [UnusedResources]
+    <color name="teal_200">#FF03DAC5</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\colors.xml:15: Warning: The resource R.color.result_background appears to be unused [UnusedResources]
+    <color name="result_background">#F5F5F5</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.scan_qr appears to be unused [UnusedResources]
+    <string name="scan_qr">Escanear QR</string>
+            ~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.camera_permission_required appears to be unused [UnusedResources]
+    <string name="camera_permission_required">Se requiere permiso de cámara para escanear códigos QR</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\strings.xml:13: Warning: The resource R.string.history_title appears to be unused [UnusedResources]
+    <string name="history_title">Historial de Escaneos</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.url_copied appears to be unused [UnusedResources]
+    <string name="url_copied">URL copiada al portapapeles</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\strings.xml:18: Warning: The resource R.string.select_image appears to be unused [UnusedResources]
+    <string name="select_image">Seleccionar imagen</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\strings.xml:21: Warning: The resource R.string.read_storage_permission appears to be unused [UnusedResources]
+    <string name="read_storage_permission">Se requiere permiso para acceder a archivos</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\values\themes.xml:18: Warning: The resource R.style.ScanButton appears to be unused [UnusedResources]
+    <style name="ScanButton" parent="Widget.MaterialComponents.Button">
+           ~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+   Available options:
+
+   **skip-libraries** (default is true):
+   Whether the unused resource check should skip reporting unused resources in libraries.
+
+   Many libraries will declare resources that are part of the library surface; other modules depending on the library will also reference the resources. To avoid reporting all these resources as unused (in the context of a library), the unused resource check normally skips reporting unused resources in libraries. Instead, run the unused resource check on the consuming app module (along with `checkDependencies=true`).
+
+   However, there are cases where you want to check that all the resources declared in a library are used; in that case, you can disable the skip option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UnusedResources">
+           <option name="skip-libraries" value="true" />
+       </issue>
+   </lint>
+   ```
+
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\layout\activity_main.xml:94: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+                <Button
+                 ~~~~~~
+
+   Explanation for issues of type "ButtonStyle":
+   Button bars typically use a borderless style for the buttons. Set the
+   style="?android:attr/buttonBarButtonStyle" attribute on each of the
+   buttons, and set style="?android:attr/buttonBarStyle" on the parent layout
+
+   https://d.android.com/r/studio-ui/designer/material/dialogs
+
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\java\com\ltw\qrreader\MainActivity.kt:242: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(content))
+                                                            ~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\java\com\ltw\qrreader\adapter\ScanHistoryAdapter.kt:80: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(item.content))
+                                                                    ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\java\com\ltw\qrreader\util\ScanHistoryManager.kt:36: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs.edit().putString(KEY_SCAN_HISTORY, json).apply()
+        ~~~~~~~~~~~~
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\java\com\ltw\qrreader\util\ScanHistoryManager.kt:52: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs.edit().remove(KEY_SCAN_HISTORY).apply()
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "UseKtx":
+   The Android KTX libraries decorates the Android platform SDK as well as
+   various libraries with more convenient extension functions available from
+   Kotlin, allowing you to use default parameters, named parameters, and
+   more.
+
+   Available options:
+
+   **remove-defaults** (default is true):
+   Whether to skip arguments that match the defaults provided by the extension.
+
+   Extensions often provide default values for some of the parameters. For example:
+   ```kotlin
+   fun Path.readLines(charset: Charset = Charsets.UTF_8): List<String> { return Files.readAllLines(this, charset) }
+   ```
+   This lint check will by default automatically omit parameters that match the default, so if your code was calling
+
+   ```kotlin
+   Files.readAllLines(file, Charset.UTF_8)
+   ```
+   lint would replace this with
+   ```kotlin
+   file.readLines()
+   ```
+   rather than
+
+   ```kotlin
+   file.readLines(Charset.UTF_8
+   ```
+   You can turn this behavior off using this option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="remove-defaults" value="true" />
+       </issue>
+   </lint>
+   ```
+
+   **require-present** (default is true):
+   Whether to only offer extensions already available.
+
+   This option lets you only have lint suggest extension replacements if those extensions are already available on the class path (in other words, you're already depending on the library containing the extension method.)
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="require-present" value="true" />
+       </issue>
+   </lint>
+   ```
+
+C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res\layout\activity_main.xml:29: Warning: Hardcoded string "Scanner frame", should use @string resource [HardcodedText]
+        android:contentDescription="Scanner frame" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+1 error, 38 warnings

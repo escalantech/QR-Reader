@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/scanContentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textIsSelectable="true"
+            tools:text="https://example.com" />
+
+        <TextView
+            android:id="@+id/scanDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAppearance="?attr/textAppearanceCaption"
+            android:textColor="?android:attr/textColorSecondary"
+            tools:text="14/05/2025 12:30" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/openButton"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:text="@string/open_url"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/copyButton"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:text="@string/copy"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/shareButton"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:text="@string/share"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+com.ltw.qrreader.test.app-jetified-core-1.5.0-0 C:\Users\LTW\.gradle\caches\8.12\transforms\725f7f27960751d809ca9f75f753e65b\transformed\jetified-core-1.5.0\res
+com.ltw.qrreader.test.app-jetified-annotation-experimental-1.3.1-1 C:\Users\LTW\.gradle\caches\8.12\transforms\ce19215bee90f5c8c79d974507247f2b\transformed\jetified-annotation-experimental-1.3.1\res
+com.ltw.qrreader.test.app-androidTest-2 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build\generated\res\resValues\androidTest\debug
+com.ltw.qrreader.test.app-mergeDebugAndroidTestResources-3 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.ltw.qrreader.test.app-mergeDebugAndroidTestResources-4 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.ltw.qrreader.test.app-debugAndroidTest-5 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

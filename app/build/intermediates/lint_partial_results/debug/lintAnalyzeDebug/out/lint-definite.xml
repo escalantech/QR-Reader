@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.10.0" type="incidents">
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="12"
+            column="9"
+            startOffset="233"
+            endLine="12"
+            endColumn="28"
+            endOffset="252"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of Gradle than 8.12 is available: 8.14">
+        <fix-replace
+            description="Update to 8.14"
+            oldString="8.12"
+            replacement="8.14"
+            priority="0"/>
+        <location
+            file="$HOME/Documents/LTW/Android APPs/QR Reader/gradle/wrapper/gradle-wrapper.properties"
+            line="3"
+            column="17"
+            startOffset="81"
+            endLine="3"
+            endColumn="79"
+            endOffset="143"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of `compileSdkVersion` than 34 is available: 35">
+        <fix-replace
+            description="Set compileSdkVersion to 35"
+            oldString="34"
+            replacement="35"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="8"
+            column="5"
+            startOffset="110"
+            endLine="8"
+            endColumn="25"
+            endOffset="130"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.16.0">
+        <fix-replace
+            description="Change to 1.16.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.16.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="65"
+            column="20"
+            startOffset="1814"
+            endLine="65"
+            endColumn="51"
+            endOffset="1845"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <fix-replace
+            description="Change to 1.7.0"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="66"
+            column="20"
+            startOffset="1865"
+            endLine="66"
+            endColumn="56"
+            endOffset="1901"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.12.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="67"
+            column="20"
+            startOffset="1921"
+            endLine="67"
+            endColumn="65"
+            endOffset="1966"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="68"
+            column="20"
+            startOffset="1986"
+            endLine="68"
+            endColumn="70"
+            endOffset="2036"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.9.0">
+        <fix-replace
+            description="Change to 2.9.0"
+            family="Update versions"
+            oldString="2.7.0"
+            replacement="2.9.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="69"
+            column="20"
+            startOffset="2056"
+            endLine="69"
+            endColumn="70"
+            endOffset="2106"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.7.0 is available: 2.9.0">
+        <fix-replace
+            description="Change to 2.9.0"
+            family="Update versions"
+            oldString="2.7.0"
+            replacement="2.9.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="70"
+            column="20"
+            startOffset="2126"
+            endLine="70"
+            endColumn="68"
+            endOffset="2174"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.camera:camera-camera2 than 1.3.1 is available: 1.4.2">
+        <fix-replace
+            description="Change to 1.4.2"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.4.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="73"
+            column="20"
+            startOffset="2214"
+            endLine="73"
+            endColumn="58"
+            endOffset="2252"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.camera:camera-lifecycle than 1.3.1 is available: 1.4.2">
+        <fix-replace
+            description="Change to 1.4.2"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.4.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="74"
+            column="20"
+            startOffset="2272"
+            endLine="74"
+            endColumn="60"
+            endOffset="2312"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.camera:camera-view than 1.3.1 is available: 1.4.2">
+        <fix-replace
+            description="Change to 1.4.2"
+            family="Update versions"
+            oldString="1.3.1"
+            replacement="1.4.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="75"
+            column="20"
+            startOffset="2332"
+            endLine="75"
+            endColumn="55"
+            endOffset="2367"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.mlkit:barcode-scanning than 17.2.0 is available: 17.3.0">
+        <fix-replace
+            description="Change to 17.3.0"
+            family="Update versions"
+            oldString="17.2.0"
+            replacement="17.3.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="78"
+            column="20"
+            startOffset="2427"
+            endLine="78"
+            endColumn="62"
+            endOffset="2469"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.10.1"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="81"
+            column="20"
+            startOffset="2549"
+            endLine="81"
+            endColumn="54"
+            endOffset="2583"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.2.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="85"
+            column="31"
+            startOffset="2678"
+            endLine="85"
+            endColumn="62"
+            endOffset="2709"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1">
+        <fix-replace
+            description="Change to 3.6.1"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.6.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="86"
+            column="31"
+            startOffset="2740"
+            endLine="86"
+            endColumn="75"
+            endOffset="2784"/>
+    </incident>
+
+    <incident
+        id="UnsafeOptInUsageError"
+        severity="error"
+        message="This declaration is opt-in and its usage should be marked with `@androidx.camera.core.ExperimentalGetImage` or `@OptIn(markerClass = androidx.camera.core.ExperimentalGetImage.class)`">
+        <fix-alternatives>
+            <fix-replace
+                description="Add &apos;@androidx.annotation.OptIn(androidx.camera.core.ExperimentalGetImage::class)&apos; annotation to &apos;startCamera&apos;"
+                oldString="_lint_insert_begin_"
+                replacement="@androidx.annotation.OptIn(androidx.camera.core.ExperimentalGetImage::class) "
+                shortenNames="true"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/MainActivity.kt"
+                    startOffset="5006"
+                    endOffset="5013"/>
+            </fix-replace>
+            <fix-replace
+                description="Add &apos;@androidx.camera.core.ExperimentalGetImage&apos; annotation to &apos;startCamera&apos;"
+                oldString="_lint_insert_begin_"
+                replacement="@androidx.camera.core.ExperimentalGetImage "
+                shortenNames="true"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/MainActivity.kt"
+                    startOffset="5006"
+                    endOffset="5013"/>
+            </fix-replace>
+            <fix-replace
+                description="Add &apos;@androidx.camera.core.ExperimentalGetImage&apos; annotation to containing class &apos;MainActivity&apos;"
+                oldString="_lint_insert_begin_"
+                replacement="@androidx.camera.core.ExperimentalGetImage "
+                shortenNames="true"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/MainActivity.kt"
+                    startOffset="0"
+                    endOffset="0"/>
+            </fix-replace>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/MainActivity.kt"
+            line="149"
+            column="45"
+            startOffset="5769"
+            endLine="149"
+            endColumn="50"
+            endOffset="5774"/>
+    </incident>
+
+    <incident
+        id="Aligned16KB"
+        severity="warning"
+        message="The native library `arm64-v8a/libbarhopper_v3.so` (from `com.google.mlkit:barcode-scanning:17.2.0`) is not 16 KB aligned">
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="78"
+            column="20"
+            startOffset="2427"
+            endLine="78"
+            endColumn="62"
+            endOffset="2469"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+                    startOffset="3602"
+                    endOffset="4569"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+                    startOffset="3836"
+                    endOffset="4151"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="94"
+            column="18"
+            startOffset="3837"
+            endLine="94"
+            endColumn="24"
+            endOffset="3843"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `String.toUri` instead?">
+        <fix-replace
+            description="Replace with the toUri extension function"
+            family="Replace with the toUri extension function"
+            robot="true"
+            independent="true"
+            oldString="Uri.parse(content)"
+            replacement="content.toUri()"
+            reformat="value"
+            imports="androidx.core.net.toUri"
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/MainActivity.kt"
+                startOffset="9543"
+                endOffset="9561"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/MainActivity.kt"
+            line="242"
+            column="61"
+            startOffset="9543"
+            endLine="242"
+            endColumn="79"
+            endOffset="9561"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `String.toUri` instead?">
+        <fix-replace
+            description="Replace with the toUri extension function"
+            family="Replace with the toUri extension function"
+            robot="true"
+            independent="true"
+            oldString="Uri.parse(item.content)"
+            replacement="item.content.toUri()"
+            reformat="value"
+            imports="androidx.core.net.toUri"
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/adapter/ScanHistoryAdapter.kt"
+                startOffset="3235"
+                endOffset="3258"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/adapter/ScanHistoryAdapter.kt"
+            line="80"
+            column="69"
+            startOffset="3235"
+            endLine="80"
+            endColumn="92"
+            endOffset="3258"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?">
+        <fix-composite
+            description="Replace with the edit extension function"
+            family="Replace with the edit extension function"
+            robot="true"
+            independent="true">
+            <fix-replace
+                description="Replace with edit"
+                robot="true"
+                independent="true"
+                oldString="edit("
+                replacement="edit"
+                reformat="value"
+                imports="androidx.core.content.edit"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+                    startOffset="1310"
+                    endOffset="1315"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with  {"
+                robot="true"
+                independent="true"
+                oldString=")"
+                replacement=" {"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+                    startOffset="1315"
+                    endOffset="1316"/>
+            </fix-replace>
+            <fix-replace
+                description="Delete &quot;.&quot;"
+                robot="true"
+                independent="true"
+                oldString="."
+                replacement=""
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+                    startOffset="1316"
+                    endOffset="1317"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with }"
+                robot="true"
+                independent="true"
+                oldString=".apply()"
+                replacement="}"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+                    startOffset="1350"
+                    endOffset="1358"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+            line="36"
+            column="9"
+            startOffset="1304"
+            endLine="36"
+            endColumn="21"
+            endOffset="1316"/>
+    </incident>
+
+    <incident
+        id="UseKtx"
+        severity="warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?">
+        <fix-composite
+            description="Replace with the edit extension function"
+            family="Replace with the edit extension function"
+            robot="true"
+            independent="true">
+            <fix-replace
+                description="Replace with edit"
+                robot="true"
+                independent="true"
+                oldString="edit("
+                replacement="edit"
+                reformat="value"
+                imports="androidx.core.content.edit"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+                    startOffset="1784"
+                    endOffset="1789"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with  {"
+                robot="true"
+                independent="true"
+                oldString=")"
+                replacement=" {"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+                    startOffset="1789"
+                    endOffset="1790"/>
+            </fix-replace>
+            <fix-replace
+                description="Delete &quot;.&quot;"
+                robot="true"
+                independent="true"
+                oldString="."
+                replacement=""
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+                    startOffset="1790"
+                    endOffset="1791"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with }"
+                robot="true"
+                independent="true"
+                oldString=".apply()"
+                replacement="}"
+                priority="0">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+                    startOffset="1815"
+                    endOffset="1823"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/util/ScanHistoryManager.kt"
+            line="52"
+            column="9"
+            startOffset="1778"
+            endLine="52"
+            endColumn="21"
+            endOffset="1790"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Scanner frame&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="29"
+            column="9"
+            startOffset="1214"
+            endLine="29"
+            endColumn="51"
+            endOffset="1256"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple QR Reader</string>
+    <string name="scan_qr">Escanear QR</string>
+    <string name="history">Historial</string>
+    <string name="camera_permission_required">Se requiere permiso de cámara para escanear códigos QR</string>
+    <string name="permission_denied">Permiso denegado. No es posible escanear códigos QR sin acceso a la cámara.</string>
+    <string name="scan_result">Resultado del escaneo</string>
+    <string name="open_url">Abrir enlace</string>
+    <string name="copy">Copiar</string>
+    <string name="share">Compartir</string>
+    <string name="no_history">No hay historial de escaneos</string>
+    <string name="history_title">Historial de Escaneos</string>
+    <string name="scan_again">Escanear de nuevo</string>
+    <string name="no_url_found">No se detectó una URL válida</string>
+    <string name="url_copied">URL copiada al portapapeles</string>
+    <string name="gallery">Galería</string>
+    <string name="select_image">Seleccionar imagen</string>
+    <string name="image_scanning_error">Error al escanear la imagen</string>
+    <string name="no_qr_code_found">No se encontró ningún código QR en la imagen</string>
+    <string name="read_storage_permission">Se requiere permiso para acceder a archivos</string>
+    <string name="clear_history">Borrar historial</string>
+    <string name="copied_to_clipboard">Copiado al portapapeles</string>
+</resources>

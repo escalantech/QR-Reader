@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.10.0" type="partial_results">
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/adapter/ScanHistoryAdapter.kt"
+                            line="80"
+                            column="42"
+                            startOffset="3208"
+                            endLine="80"
+                            endColumn="93"
+                            endOffset="3259"/>
+                        <location id="1"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/ltw/qrreader/MainActivity.kt"
+                            line="242"
+                            column="34"
+                            startOffset="9516"
+                            endLine="242"
+                            endColumn="80"
+                            endOffset="9562"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.ltw.qrreader.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.purple_200"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="29"
+            endOffset="79"/>
+        <location id="R.color.purple_500"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="4"
+            column="12"
+            startOffset="109"
+            endLine="4"
+            endColumn="29"
+            endOffset="126"/>
+        <location id="R.color.purple_700"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="156"
+            endLine="5"
+            endColumn="29"
+            endOffset="173"/>
+        <location id="R.color.result_background"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="15"
+            column="12"
+            startOffset="602"
+            endLine="15"
+            endColumn="36"
+            endOffset="626"/>
+        <location id="R.color.teal_200"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="6"
+            column="12"
+            startOffset="203"
+            endLine="6"
+            endColumn="27"
+            endOffset="218"/>
+        <location id="R.string.camera_permission_required"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="6"
+            column="13"
+            startOffset="211"
+            endLine="6"
+            endColumn="46"
+            endOffset="244"/>
+        <location id="R.string.history_title"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="13"
+            column="13"
+            startOffset="707"
+            endLine="13"
+            endColumn="33"
+            endOffset="727"/>
+        <location id="R.string.read_storage_permission"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="21"
+            column="13"
+            startOffset="1236"
+            endLine="21"
+            endColumn="43"
+            endOffset="1266"/>
+        <location id="R.string.scan_qr"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="4"
+            column="13"
+            startOffset="117"
+            endLine="4"
+            endColumn="27"
+            endOffset="131"/>
+        <location id="R.string.select_image"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="18"
+            column="13"
+            startOffset="1009"
+            endLine="18"
+            endColumn="32"
+            endOffset="1028"/>
+        <location id="R.string.url_copied"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="16"
+            column="13"
+            startOffset="898"
+            endLine="16"
+            endColumn="30"
+            endOffset="915"/>
+        <location id="R.style.ScanButton"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/themes.xml"
+            line="18"
+            column="12"
+            startOffset="809"
+            endLine="18"
+            endColumn="29"
+            endOffset="826"/>
+        <entry
+            name="model"
+            string="attr[colorControlNormal(R),textAppearanceHeadline6(R),textAppearanceBody1(R),materialButtonOutlinedStyle(R),textAppearanceCaption(R),colorPrimaryVariant(R)],color[scanner_line(U),transparent(U),purple_200(D),purple_500(D),purple_700(D),teal_200(D),teal_700(U),black(U),white(U),primary(U),primary_dark(U),accent(U),result_background(D)],drawable[ic_launcher(U),ic_launcher_round(U),ic_gallery(U),ic_history(U),scanner_frame(U)],id[emptyHistoryText(U),historyRecyclerView(U),previewView(U),scannerOverlay(D),galleryButton(U),historyButton(U),resultCard(D),resultTitle(D),resultText(D),openUrlButton(D),copyButton(U),scanAgainButton(D),scanContentText(U),scanDateText(U),openButton(U),shareButton(U),action_clear_history(U)],layout[activity_history(U),item_scan_history(U),activity_main(U)],menu[history_menu(U)],string[app_name(U),no_history(U),gallery(U),history(U),scan_result(U),open_url(U),copy(U),scan_again(U),share(U),clear_history(U),scan_qr(D),camera_permission_required(D),permission_denied(U),history_title(D),no_url_found(U),url_copied(D),select_image(D),image_scanning_error(U),no_qr_code_found(U),read_storage_permission(D),copied_to_clipboard(U)],style[Theme_SimpleQRReader(U),Theme_MaterialComponents_DayNight_DarkActionBar(R),ScanButton(D),Widget_MaterialComponents_Button(E)];15^0,16^0,17^6^7,29^2e^1^2a,2a^2^4^32^3^33^35,2b^17^2f^15^30^16^31^1^2^32^33^3^34,2c^36,42^43^f^10^e^11^c^d^5,44^45;;;"/>
+    </map>
+
+</incidents>

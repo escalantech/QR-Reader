@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.10.0" type="incidents">
+
+    <incident
+        id="Aligned16KB"
+        severity="warning"
+        message="The native library `arm64-v8a/libbarhopper_v3.so` (from `com.google.mlkit:barcode-scanning:17.2.0`) is not 16 KB aligned">
+        <location
+            file="$GRADLE_USER_HOME/caches/8.12/transforms/984d9eb91cf127b453b3373361bf7e42/transformed/jetified-barcode-scanning-17.2.0/jni/arm64-v8a/libbarhopper_v3.so"/>
+    </incident>
+
+</incidents>

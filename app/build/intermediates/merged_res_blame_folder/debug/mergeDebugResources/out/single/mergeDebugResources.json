@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.ltw.qrreader.app-debug-41:/layout_item_scan_history.xml.flat",
+        "source": "com.ltw.qrreader.app-main-43:/layout/item_scan_history.xml"
+    },
+    {
+        "merged": "com.ltw.qrreader.app-debug-41:/drawable_ic_gallery.xml.flat",
+        "source": "com.ltw.qrreader.app-main-43:/drawable/ic_gallery.xml"
+    },
+    {
+        "merged": "com.ltw.qrreader.app-debug-41:/drawable_scanner_frame.xml.flat",
+        "source": "com.ltw.qrreader.app-main-43:/drawable/scanner_frame.xml"
+    },
+    {
+        "merged": "com.ltw.qrreader.app-debug-41:/menu_history_menu.xml.flat",
+        "source": "com.ltw.qrreader.app-main-43:/menu/history_menu.xml"
+    },
+    {
+        "merged": "com.ltw.qrreader.app-debug-41:/layout_activity_history.xml.flat",
+        "source": "com.ltw.qrreader.app-main-43:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.ltw.qrreader.app-debug-41:/drawable_ic_launcher_round.xml.flat",
+        "source": "com.ltw.qrreader.app-main-43:/drawable/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ltw.qrreader.app-debug-41:/drawable_ic_launcher.xml.flat",
+        "source": "com.ltw.qrreader.app-main-43:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ltw.qrreader.app-debug-41:/layout_activity_main.xml.flat",
+        "source": "com.ltw.qrreader.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ltw.qrreader.app-debug-41:/drawable_ic_history.xml.flat",
+        "source": "com.ltw.qrreader.app-main-43:/drawable/ic_history.xml"
+    }
+]

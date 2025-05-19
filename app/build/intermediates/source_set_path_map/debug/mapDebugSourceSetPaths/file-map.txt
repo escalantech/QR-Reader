@@ -1,0 +1,44 @@
+com.ltw.qrreader.app-drawerlayout-1.1.1-0 C:\Users\LTW\.gradle\caches\8.12\transforms\00ab0e67004d04c362180b49572e1477\transformed\drawerlayout-1.1.1\res
+com.ltw.qrreader.app-jetified-camera-lifecycle-1.3.1-1 C:\Users\LTW\.gradle\caches\8.12\transforms\02cabda7e5ccea97be8ff5768d5b6af9\transformed\jetified-camera-lifecycle-1.3.1\res
+com.ltw.qrreader.app-jetified-camera-view-1.3.1-2 C:\Users\LTW\.gradle\caches\8.12\transforms\03429dab301e6a375f7a56750dd6bb12\transformed\jetified-camera-view-1.3.1\res
+com.ltw.qrreader.app-appcompat-1.6.1-3 C:\Users\LTW\.gradle\caches\8.12\transforms\07c17b17ef7d8fcf8af70eb525012be5\transformed\appcompat-1.6.1\res
+com.ltw.qrreader.app-recyclerview-1.1.0-4 C:\Users\LTW\.gradle\caches\8.12\transforms\0bd06198eed977ddf32b02022bffe1e8\transformed\recyclerview-1.1.0\res
+com.ltw.qrreader.app-jetified-play-services-base-18.1.0-5 C:\Users\LTW\.gradle\caches\8.12\transforms\212987c9b7c88fe60b40f0864c2f972e\transformed\jetified-play-services-base-18.1.0\res
+com.ltw.qrreader.app-jetified-play-services-basement-18.1.0-6 C:\Users\LTW\.gradle\caches\8.12\transforms\2287c3fbb70507f9f5db8cb577ec735e\transformed\jetified-play-services-basement-18.1.0\res
+com.ltw.qrreader.app-lifecycle-runtime-2.7.0-7 C:\Users\LTW\.gradle\caches\8.12\transforms\240cd465d3e6a40e057c6d03e7d899cb\transformed\lifecycle-runtime-2.7.0\res
+com.ltw.qrreader.app-jetified-profileinstaller-1.3.0-8 C:\Users\LTW\.gradle\caches\8.12\transforms\3241dd649987a461dd7239af580a5a19\transformed\jetified-profileinstaller-1.3.0\res
+com.ltw.qrreader.app-coordinatorlayout-1.1.0-9 C:\Users\LTW\.gradle\caches\8.12\transforms\373e358fabbec10fb88fc06ae2ba1c9d\transformed\coordinatorlayout-1.1.0\res
+com.ltw.qrreader.app-jetified-emoji2-1.2.0-10 C:\Users\LTW\.gradle\caches\8.12\transforms\38b86e726b37f5d337aaf964a3d18158\transformed\jetified-emoji2-1.2.0\res
+com.ltw.qrreader.app-jetified-core-ktx-1.12.0-11 C:\Users\LTW\.gradle\caches\8.12\transforms\4089da33abcb906c5e1160b91955b1d5\transformed\jetified-core-ktx-1.12.0\res
+com.ltw.qrreader.app-cardview-1.0.0-12 C:\Users\LTW\.gradle\caches\8.12\transforms\4bf881ac6e8eedde4121d24e1fdd6f6f\transformed\cardview-1.0.0\res
+com.ltw.qrreader.app-lifecycle-livedata-core-2.7.0-13 C:\Users\LTW\.gradle\caches\8.12\transforms\50056c7c247f6266d2cc4603349a6fdf\transformed\lifecycle-livedata-core-2.7.0\res
+com.ltw.qrreader.app-transition-1.2.0-14 C:\Users\LTW\.gradle\caches\8.12\transforms\501de5d17a30f39683f2b55268555ede\transformed\transition-1.2.0\res
+com.ltw.qrreader.app-jetified-appcompat-resources-1.6.1-15 C:\Users\LTW\.gradle\caches\8.12\transforms\58ba990aa3fa12da20d43b8d5d8e879e\transformed\jetified-appcompat-resources-1.6.1\res
+com.ltw.qrreader.app-jetified-lifecycle-runtime-ktx-2.7.0-16 C:\Users\LTW\.gradle\caches\8.12\transforms\60602a53910a7983548d36a68d368859\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.ltw.qrreader.app-jetified-viewpager2-1.0.0-17 C:\Users\LTW\.gradle\caches\8.12\transforms\6080eef402b925cfcb517c1d83d2cf17\transformed\jetified-viewpager2-1.0.0\res
+com.ltw.qrreader.app-jetified-savedstate-1.2.1-18 C:\Users\LTW\.gradle\caches\8.12\transforms\72b2acfc29d3f23a9070fdd2551c36dd\transformed\jetified-savedstate-1.2.1\res
+com.ltw.qrreader.app-fragment-1.3.6-19 C:\Users\LTW\.gradle\caches\8.12\transforms\7766dd1a9a3aa2db9db1bbe60f5c78e9\transformed\fragment-1.3.6\res
+com.ltw.qrreader.app-lifecycle-viewmodel-2.7.0-20 C:\Users\LTW\.gradle\caches\8.12\transforms\87aecbb16a55b6a6f83524739e181202\transformed\lifecycle-viewmodel-2.7.0\res
+com.ltw.qrreader.app-constraintlayout-2.1.4-21 C:\Users\LTW\.gradle\caches\8.12\transforms\9c1dc34fb52b26584f862d7a1bb4a479\transformed\constraintlayout-2.1.4\res
+com.ltw.qrreader.app-jetified-camera-video-1.3.1-22 C:\Users\LTW\.gradle\caches\8.12\transforms\a37eb2ec550435a978aa1b296f239d2c\transformed\jetified-camera-video-1.3.1\res
+com.ltw.qrreader.app-jetified-lifecycle-viewmodel-ktx-2.7.0-23 C:\Users\LTW\.gradle\caches\8.12\transforms\a53f740723fe07998d4bbb18a144f5b8\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.ltw.qrreader.app-jetified-lifecycle-process-2.7.0-24 C:\Users\LTW\.gradle\caches\8.12\transforms\aa86f83dc99d18b835af5e704116c620\transformed\jetified-lifecycle-process-2.7.0\res
+com.ltw.qrreader.app-jetified-camera-camera2-1.3.1-25 C:\Users\LTW\.gradle\caches\8.12\transforms\b0c93b484df50cab6df16947183c1e28\transformed\jetified-camera-camera2-1.3.1\res
+com.ltw.qrreader.app-core-1.12.0-26 C:\Users\LTW\.gradle\caches\8.12\transforms\b4a75fe05e2530c6bdf04968bc057a73\transformed\core-1.12.0\res
+com.ltw.qrreader.app-material-1.11.0-27 C:\Users\LTW\.gradle\caches\8.12\transforms\cc7e94f1d840b3f904b9004fde448729\transformed\material-1.11.0\res
+com.ltw.qrreader.app-jetified-annotation-experimental-1.3.1-28 C:\Users\LTW\.gradle\caches\8.12\transforms\ce19215bee90f5c8c79d974507247f2b\transformed\jetified-annotation-experimental-1.3.1\res
+com.ltw.qrreader.app-jetified-startup-runtime-1.1.1-29 C:\Users\LTW\.gradle\caches\8.12\transforms\d5af3b16a2764980bfb8dfebea532eb1\transformed\jetified-startup-runtime-1.1.1\res
+com.ltw.qrreader.app-jetified-emoji2-views-helper-1.2.0-30 C:\Users\LTW\.gradle\caches\8.12\transforms\dc12f13f9707965f3974929d0c47c20a\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.ltw.qrreader.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-31 C:\Users\LTW\.gradle\caches\8.12\transforms\e0191ae5099378f6b90dd3898d3cce53\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.ltw.qrreader.app-core-runtime-2.2.0-32 C:\Users\LTW\.gradle\caches\8.12\transforms\e04609c46a6645685b5dedc89867f6a0\transformed\core-runtime-2.2.0\res
+com.ltw.qrreader.app-jetified-camera-core-1.3.1-33 C:\Users\LTW\.gradle\caches\8.12\transforms\e88ae174b773aba74b7ed50c1d92376b\transformed\jetified-camera-core-1.3.1\res
+com.ltw.qrreader.app-jetified-activity-1.8.0-34 C:\Users\LTW\.gradle\caches\8.12\transforms\ec689efdb0714d6d3dad6069dbe5d795\transformed\jetified-activity-1.8.0\res
+com.ltw.qrreader.app-jetified-lifecycle-livedata-core-ktx-2.7.0-35 C:\Users\LTW\.gradle\caches\8.12\transforms\f4ef64ecd495414dc75f1bd59f2da9d8\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.ltw.qrreader.app-lifecycle-livedata-2.7.0-36 C:\Users\LTW\.gradle\caches\8.12\transforms\f869bcc3e46b092427d3918c0cd2e756\transformed\lifecycle-livedata-2.7.0\res
+com.ltw.qrreader.app-pngs-37 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build\generated\res\pngs\debug
+com.ltw.qrreader.app-resValues-38 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build\generated\res\resValues\debug
+com.ltw.qrreader.app-mergeDebugResources-39 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.ltw.qrreader.app-mergeDebugResources-40 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.ltw.qrreader.app-debug-41 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.ltw.qrreader.app-debug-42 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\debug\res
+com.ltw.qrreader.app-main-43 C:\Users\LTW\Documents\LTW\Android APPs\QR Reader\app\src\main\res

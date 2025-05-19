@@ -1,0 +1,3 @@
+com.ltw.qrreader.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
